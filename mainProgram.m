@@ -1,7 +1,3 @@
-% - CIVE 403 FINAL PROJECT ---------------------------------------------- %
-%   KEVIN LI      20553865
-%   University of Waterloo
-
 % - Setup --------------------------------------------------------------- %
 clc, clear, format shortEng
 
