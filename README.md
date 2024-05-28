@@ -1,3 +1,6 @@
+# 3D Structural Analysis
+<img src="img/Picture0.png" width="630" alt="Warp" />
+
 ## About
 This is a light-weight structural analysis program used to analyze the axial forces, shear forcs, and bending moments of a 3D-space frame structure. The program utilizes MATLAB's extensive matrix operation capabilities to perform structural analysis calculations using the [direct stiffness method](https://en.wikipedia.org/wiki/Direct_stiffness_method).
 
@@ -10,7 +13,7 @@ The geometry, member property, and loading conditions of the structure shall be 
 `Node Property` sheet is used to define the points or nodes where structural members connect. The location of the nodes are defined in the global coordinate system `X`, `Y`, and `Z`. Node displacement and rotational restraints can be defined for each node by setting the value to `1` under the corresponding node and displacement/rotational axis. Initial node displacement and rotation, if any, is also defined on this sheet.
 
 ### Member Property
-`Member Property` sheet is used to define the member properties of the structural frame member. The frame member must be connected to a `NEAR` and `FAR` node. Rotation about the local-axis of the member is possible to orientate the member's local coordinate system (LCS) with respect to the global coordinate system (GCS) is possible by setting adjusting the rotational angle `ANGLE`. The default LCS orientation is shown in Figure 1.
+`Member Property` sheet is used to define the member properties of the structural frame member. The frame member must be connected to a `NEAR` and `FAR` node. Rotation about the local-axis of the member is possible to orientate the member's local coordinate system (LCS) with respect to the global coordinate system (GCS) is possible by setting adjusting the rotational angle `ANGLE`. The default LCS orientation is shown in <>.
 
 ### Node Load
 `Node Load` sheet is used to define any point load or point rotation applied directly on a node. `LOAD FACTOR` can be utilized to assign load factors (i.e. from a load combination).
@@ -22,3 +25,5 @@ The geometry, member property, and loading conditions of the structure shall be 
 
 ### Member End Results
 `Member End Results` is the summary sheet showing the structrual analysis result of the selected member. Change the `member id` to review the end forces and moments. Raw data output from the program are provided in the subsequent sheets.
+
+<img src="img/Picture1.png" width="936" alt="Warp" />
